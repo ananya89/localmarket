@@ -27,3 +27,5 @@ $(".js-searchbtn").on('click', function(e){
 		findShops();
 	}
 });
+
+var ex = 0;
