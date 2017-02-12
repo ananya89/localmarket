@@ -35,8 +35,11 @@ module.exports = function(grunt) {
 	  options: {
 	    mode: 'proxy',
 	    host: 'localhost',
-	    port: 8090,
-	    context: '/api'
+	    port: 8080,
+	    context: '/rest',
+	    rewrite:{
+	       '^/rest':'/api'
+	    }
 	  }
 	},
     jshint: {
