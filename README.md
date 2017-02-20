@@ -1,0 +1,1 @@
+python generate.py -n D:/softwares/Hugin/bin/nona.exe demo1_full.jpg

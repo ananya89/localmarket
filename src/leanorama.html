@@ -17,13 +17,16 @@
 	<script>
 	var tour = {
     plaza: { // First location: Plaza
+    	gyro: false,
+    	touch: true,
+    	autorotate: 0.1, 
         sides: [ // URLs for panorama files
+            '/resources/output/fallback/f.jpg',
             '/resources/output/fallback/r.jpg',
             '/resources/output/fallback/b.jpg',
             '/resources/output/fallback/l.jpg',
-            '/resources/output/fallback/f.jpg',
             '/resources/output/fallback/u.jpg',
-            '/resources/output/fallback/d.jpg'
+            '/resources/output/fallback/d.jpg',
         ],
         hotspots: [ // This location has 3 hotspot: navigation, info with video, and a link
             { // Navigation hotspot which will take you to the Museum.

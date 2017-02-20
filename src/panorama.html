@@ -48,13 +48,15 @@ pannellum.viewer('panorama', {
             "northOffset": 289,
             "type": "multires",
             "multiRes": {
-                "basePath": "http://localhost:8080/resources/output/",
+                "basePath": "http://192.168.1.101:8080/resources/output",
                 "path": "/%l/%s%y_%x",
-                "fallbackPath": "/fallback/%s",
-                "extension": "jpg",
-                "tileResolution": 512,
-                "maxLevel": 6,
-                "cubeResolution": 8432
+                "fallbackPath": "http://192.168.1.101:8080/resources/output/fallback/%s",
+
+        "extension": "jpg",
+        "tileResolution": 512,
+        "maxLevel": 4,
+        "cubeResolution": 2440
+
             },
             "hotSpots": [
                 {
